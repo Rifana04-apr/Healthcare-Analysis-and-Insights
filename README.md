@@ -30,10 +30,11 @@
    - Compared the distribution of cancer among smokers and nonsmokers to understand the relationship between smoking status and cancer history.
    - Compared the total number of major surgeries between patients with and without transplants.
    - Analyzed the difference in average HbA1C levels between patients with and without transplants.
-   - Patients from different state Id distinguished during this analysis
+   - Patients from different state Id distinguished during this analysis.
   ## Dashboard Overview
-   - The total number of patients = 2333
+   - The total number of patients = 2333.
    - Out of 2333 patients, all of them are identified as smokers.
-   - Average HbA1C Percentage is 6.58
-     This created as a part of My Data Analytic Learning Journey
-     Thank You
+   - Average HbA1C Percentage is 6.58.
+
+ This created as a part of My Data Analytic Learning Journey,
+     Thank You.
