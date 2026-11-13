@@ -6,10 +6,10 @@
  - The given data set contain information of customers within different states. This data contains customer ID, date of birth, BMI, Age, statuses of BMI and HbA1c, State Id, Medical histories, charges, tiers etc.
 ## Data Preprocessing
 ## Data Cleaning
- - 1. checked the missing values marked with '?'in each column of the “Medical Examinations” Table and "Hospitalization Details" Table.
-   2. Filled the missing values of ‘month’ with Sep and ‘year’ with its average rounded to the nearest integer
-   3. The most frequently occurring values in 'smoker' is yes, whereas in hospital tier and city tier are tier3 and its      filled missing values accordingly
-   4. The values that are missing in 'State ID' are replaced with "unknown".
+ - 1. checked the missing values marked with '?'in each column of the “Medical Examinations” Table and "Hospitalization Details" Table, using COUNTIF(range,"?").
+   2. Filled the missing values of ‘month’ with Sep and ‘year’ with its average rounded to the nearest integer, the average is 1983.
+   3. The most frequently occurring values in 'smoker' is 'yes', whereas in hospital tier and city tier are tier2 and its      filled missing values accordingly using the function "MODE".
+   5. The values that are missing in 'State ID' are replaced with "unknown".
    
 ## Data Transformation
 - 1. Using "split text to columns", the customer names column split into three columns.
